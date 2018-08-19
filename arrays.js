@@ -37,3 +37,7 @@ function accessElementInArray(array, index) {
     }
   }
 }
+
+function removeElementFromEndOfArray() {
+  
+}
