@@ -33,7 +33,7 @@ function destructivelyAddElementToEndOfArray(array, element) {
 function accessElementInArray(array, index) {
   for (var i = 0; i < array.length; i++) {
     if (i == index) {
-      return array[i]
+      return array[i];
     }
   }
 }
