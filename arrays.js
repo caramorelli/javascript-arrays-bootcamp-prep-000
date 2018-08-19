@@ -5,14 +5,14 @@ function addElementToBeginningOfArray(array, element) {
   new_array.push(element)
   for (var i = 0; i < array.length; i++) {
     var ele = array[i];
-    new_array.push(ele)
+    new_array.push(ele);
   }
   return new_array;
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
    array.unshift(element);
-   return array
+   return array;
 }
 
 function addElementToEndOfArray(array, element) {
