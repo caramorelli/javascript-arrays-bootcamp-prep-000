@@ -11,11 +11,5 @@ function addElementToBeginningOfArray(array, element) {
 }
 
 function destructivelyAddElementToBeginningOfArray(array, elemnt) {
-    var new_array = []
-  new_array.push(element)
-  for (var i = 0; i < array.length; i++) {
-    var ele = array[i];
-    new_array.push(ele)
-  }
-  return new_array;
+   
 }
