@@ -38,6 +38,10 @@ function accessElementInArray(array, index) {
   }
 }
 
+function destructivelyRemoveElementFromBeginningOfArray() {
+  
+}
+
 // function removeElementFromBeginningOfArray() {
   
 // }
