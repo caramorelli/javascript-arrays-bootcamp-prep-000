@@ -38,6 +38,6 @@ function accessElementInArray(array, index) {
   }
 }
 
-function removeElementFromEndOfArray() {
+// function removeElementFromEndOfArray() {
   
-}
+// }
