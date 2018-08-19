@@ -44,7 +44,8 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
 }
 
 function removeElementFromBeginningOfArray(array) {
-  new_array = [];
+  var new_array = [];
+  for (var i = 0; i < array.length; i++)
 }
 
 // function destructivelyRemoveElementFromEndOfArray() {
