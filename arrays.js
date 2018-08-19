@@ -58,5 +58,10 @@ function destructivelyRemoveElementFromEndOfArray(array) {
 }
 
 function removeElementFromEndOfArray(array) {
-  
+   var new_array = [];
+  for (var i = 0; i < (array.length); i++) {
+    var ele = array[i];
+    new_array.push(ele);
+  }
+  return new_array;
 }
