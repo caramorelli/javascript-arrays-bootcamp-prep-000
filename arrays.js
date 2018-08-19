@@ -38,9 +38,9 @@ function accessElementInArray(array, index) {
   }
 }
 
-function removeElementFromBeginningOfArray() {
+// function removeElementFromBeginningOfArray() {
   
-}
+// }
 
 // function destructivelyRemoveElementFromEndOfArray() {
   
