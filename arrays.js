@@ -45,7 +45,9 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
 
 function removeElementFromBeginningOfArray(array) {
   var new_array = [];
-  for (var i = 0; i < array.length; i++)
+  for (var i = 1; i < array.length; i++) {
+    
+  }
 }
 
 // function destructivelyRemoveElementFromEndOfArray() {
