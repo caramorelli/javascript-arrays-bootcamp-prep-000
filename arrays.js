@@ -4,6 +4,7 @@ function addElementToBeginningOfArray(array, element) {
   var new_array = []
   new_array.push(element)
   for (var i = 0; i < array.length; i++) {
+    var ele = array[i]
     new_array.push()
   }
   return new_array;
